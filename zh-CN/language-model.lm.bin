@@ -1,0 +1,73 @@
+Language model created by QuickLM on Tue Jan 14 04:42:20 EST 2020
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 12 sentences and 14 words
+
+\data\
+ngram 1=14
+ngram 2=24
+ngram 3=12
+
+\1-grams:
+-0.7782 </s> -0.3010
+-0.7782 <s> -0.2218
+-1.8573 PM2.5 -0.2218
+-1.8573 一氧化碳 -0.2218
+-1.8573 二氧化碳 -0.2218
+-1.8573 多少 -0.2218
+-1.8573 懸浮微粒 -0.2218
+-1.8573 溫度 -0.2218
+-1.8573 濃度 -0.2218
+-1.8573 濕度 -0.2218
+-1.8573 為 -0.2218
+-1.8573 目前 -0.2218
+-1.8573 車內 -0.2218
+-1.8573 酒精 -0.2218
+
+\2-grams:
+-1.3802 <s> PM2.5 0.0000
+-1.3802 <s> 一氧化碳 0.0000
+-1.3802 <s> 二氧化碳 0.0000
+-1.3802 <s> 多少 0.0000
+-1.3802 <s> 懸浮微粒 0.0000
+-1.3802 <s> 溫度 0.0000
+-1.3802 <s> 濃度 0.0000
+-1.3802 <s> 濕度 0.0000
+-1.3802 <s> 為 0.0000
+-1.3802 <s> 目前 0.0000
+-1.3802 <s> 車內 0.0000
+-1.3802 <s> 酒精 0.0000
+-0.3010 PM2.5 </s> -0.3010
+-0.3010 一氧化碳 </s> -0.3010
+-0.3010 二氧化碳 </s> -0.3010
+-0.3010 多少 </s> -0.3010
+-0.3010 懸浮微粒 </s> -0.3010
+-0.3010 溫度 </s> -0.3010
+-0.3010 濃度 </s> -0.3010
+-0.3010 濕度 </s> -0.3010
+-0.3010 為 </s> -0.3010
+-0.3010 目前 </s> -0.3010
+-0.3010 車內 </s> -0.3010
+-0.3010 酒精 </s> -0.3010
+
+\3-grams:
+-0.3010 <s> PM2.5 </s>
+-0.3010 <s> 一氧化碳 </s>
+-0.3010 <s> 二氧化碳 </s>
+-0.3010 <s> 多少 </s>
+-0.3010 <s> 懸浮微粒 </s>
+-0.3010 <s> 溫度 </s>
+-0.3010 <s> 濃度 </s>
+-0.3010 <s> 濕度 </s>
+-0.3010 <s> 為 </s>
+-0.3010 <s> 目前 </s>
+-0.3010 <s> 車內 </s>
+-0.3010 <s> 酒精 </s>
+
+\end\
